@@ -6,7 +6,8 @@ A free API for creating Addons and Plugins for Quirkcraft!
 
 For support and questions, join [the Quirkcraft Discord server][Discord].
 
-[Discord]: https://discord.quirkstudios.xyz/quirkcraft
+[Discord]: https://discord.quirkstudios.xyz/quirkcraft/
+
 | Version | Support |
 |---------|---------|
 | 0.1.x   | Active  |
