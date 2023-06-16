@@ -9,7 +9,7 @@ docs:
     - if: $CI_COMMIT_BRANCH == "master"
     - if: $CI_PIPELINE_SOURCE  == "push"
   before_script:
-    - apt-get install git -y
+    - apt-get update -y && apt-get install git -y
   script:
     - git config --global user.email "ci@quirkstudios.xyz"
     - git config --global user.name "CI"
