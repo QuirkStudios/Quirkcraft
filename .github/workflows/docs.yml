@@ -15,9 +15,8 @@ jobs:
     - uses: actions/checkout@master
       with:
         fetch-depth: 0
-    - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CUSTOM_DOMAIN: quirkcraft.quirkstudios.xyz
-          CONFIG_FILE: mkdocs.yml
+    - uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CUSTOM_DOMAIN: quirkcraft.quirkstudios.xyz
+        CONFIG_FILE: mkdocs.yml
