@@ -1,0 +1,1 @@
+window.quirkcraft={THEME_LIGHT:"light",THEME_DARK:"dark",swapThemeCSS:function(d){var c=document.styleSheets,e=c.length,a;for(a=0;a<e;a++){var b=c[a];b.ownerNode.dataset.theme&&(b.disabled=b.ownerNode.dataset.theme!==d)}}};localStorage.theme||(localStorage.theme=window.quirkcraft.THEME_LIGHT);window.quirkcraft.swapThemeCSS(localStorage.theme);
