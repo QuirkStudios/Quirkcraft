@@ -1,0 +1,26 @@
+name: Docs
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-python@v3
+      with:
+        python-version: 3.7
+    - uses: actions/checkout@master
+      with:
+        fetch-depth: 0
+    - name: Build and Commit
+      uses: iSOLveIT/mkdocs-notes@main
+      with:
+        config_file_path: mkdocs.yml
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages

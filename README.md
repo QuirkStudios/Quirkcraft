@@ -1,4 +1,4 @@
-![Quirkcraft Logo](assets/Quirkcraft_logo.png)
+![Quirkcraft Logo](docs/assets/Quirkcraft_logo.png)
 
 # Quirkcraft API
 
