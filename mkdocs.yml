@@ -1,7 +1,7 @@
 site_name: Quirkcraft
 site_url: https://quirkcraft.quirkstudios.xyz
 theme:
-  name: readthedocs
+  name: forge
   custom_dir: theme
 nav:
   - Home: 'index.md'
