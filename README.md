@@ -16,10 +16,10 @@ For support and questions, join [the Quirkcraft Discord server][Discord].
 
 [See the "Addon" section in the Quirkcraft Documentation][Addon].
 
-[Addon]: https://quirkcraft.quirkstudios.xyz/en/latest/addon/
+[Addon]: https://quirkcraft.quirkstudios.xyz/addon/
 
 ## Creating Plugins
 
 [See the "Plugin" section in the Quirkcraft Documentation][Plugin].
 
-[Plugin]: https://quirkcraft.quirkstudios.xyz/en/latest/plugin/
+[Plugin]: https://quirkcraft.quirkstudios.xyz/plugin/

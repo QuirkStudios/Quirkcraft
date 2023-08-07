@@ -6,4 +6,8 @@ theme:
 nav:
   - Home: 'index.md'
   - Getting Started:
-    - Introduction: 'gettingstarted/index.md'
+      - Introduction: 'gettingstarted/index.md'
+  - Addon:
+      - Introduction: 'addon/index.md'
+  - Plugin:
+      - Introduction: 'plugin/index.md'

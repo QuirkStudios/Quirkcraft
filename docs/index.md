@@ -1,3 +1,4 @@
-# Welcome to Quirkcraft
+# Quirkcraft Documentation
 
-This Wiki is a WIP!
+This is the official documentation for Quirkcraft.
+This documentation is only for Quirkcraft and **this not a modding tutorial**.
