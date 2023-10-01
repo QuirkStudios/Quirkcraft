@@ -10,7 +10,7 @@ For support and questions, join [the Quirkcraft Discord server][Discord].
 
 | Version | Support |
 |---------|---------|
-| 0.1.x   | Active  |
+| 0.1.x   | IN-DEV  |
 
 ## Creating Addons
 
