@@ -51,6 +51,10 @@ public class Event<T> {
         return cancel ? EventResult.cancel() : EventResult.pass();
     }
 
+    public static <T> void voidedResult(List<T> listeners, Function<T, ?> function) {
+        return;
+    }
+
     public enum Priority {
 
         HIGHEST,

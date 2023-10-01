@@ -12,14 +12,24 @@ public class QuirkEvents {
             listeners -> (livingEntity, renderer, partialTick, postStack, multiBufferSource, packedLight) ->
                     Event.result(listeners, preRender -> preRender.onRender(livingEntity, renderer, partialTick, postStack, multiBufferSource, packedLight)));
 
+    public static final Event<KeyEvent> QUIRK_KEY_TRIGGER_EVENT = new Event<>(KeyEvent.class,
+            listeners -> (livingEntity) ->
+                    Event.voidedResult(listeners, keyEvent -> keyEvent));
+
     @FunctionalInterface
     public interface PreRender {
         // Called before the entity is rendered.
-        EventResult onRender(LivingEntity entity,
+        EventResult onRender(LivingEntity livingEntity,
                       LivingEntityRenderer<LivingEntity, HumanoidModel<LivingEntity>> renderer,
                       float partialTick,
                       PoseStack poseStack,
                       MultiBufferSource multiBufferSource,
                       int packedLight);
+    }
+
+    @FunctionalInterface
+    public interface KeyEvent {
+        // Called when a key is triggered
+        void trigger(LivingEntity livingEntity);
     }
 }
